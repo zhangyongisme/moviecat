@@ -12,8 +12,8 @@
 		}])
 		.constant('AppConfig', {
 			pageSize: 10,
-			listApiAddress: 'http://api.douban.com/v2/movie/',
-			detailApiAddress: 'http://api.douban.com/v2/movie/subject/'
+			listApiAddress: 'https://api.douban.com/v2/movie/',
+			detailApiAddress: 'https://api.douban.com/v2/movie/subject/'
 		})
 		.controller('searchController', ['$scope', '$route', function($scope, $route) {
 			$scope.search = function() {
