@@ -10,6 +10,9 @@
 				redirectTo: '/in_theaters/1'
 			});
 		}])
+		.config(['$sceDelegateProvider',function($sceDelegateProvider) {
+			$sceDelegateProvider.resourceUrlWhitelist(['**']);
+		}])
 		.constant('AppConfig', {
 			pageSize: 10,
 			listApiAddress: 'https://api.douban.com/v2/movie/',
