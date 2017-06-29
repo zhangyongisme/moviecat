@@ -58,6 +58,12 @@ body {
 	}
 }
 
+@media (min-width: 768px) {
+	.nav-show{
+		display: none;
+	}
+}
+
 
 /* Sidebar navigation */
 
