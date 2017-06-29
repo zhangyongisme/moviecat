@@ -7,7 +7,7 @@
 		]);
 	//配置路由
 	module.config(['$routeProvider', function($routeProvider) {
-		$routeProvider.when('/detail/:id?', {
+		$routeProvider.when('/detail/:id', {
 			templateUrl: 'js/movie_detail/view.html',
 			controller: 'MovieDetailController'
 		});
